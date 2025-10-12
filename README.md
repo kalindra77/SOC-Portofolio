@@ -8,8 +8,10 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 ## 🔧 Tools yang Digunakan
 - Wazuh (SIEM)
 - Cowrie (Honeypot)
+- Snort (IDS)
 - Wireshark
-- Snort
+- The Sleuth Kit (TSK)
+- Virustotal
 - MITRE ATT&CK
 
 ## 🧠 Skills
