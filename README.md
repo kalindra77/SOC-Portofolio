@@ -17,6 +17,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 - Incident detection & response
 - Threat intelligence mapping
 - Network analysis (TCP/IP, DNS, HTTP, SSH)
+- Digital Forensic
 
 ## 📂 Projects
 | Project | Deskripsi | Tools |
