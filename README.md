@@ -9,7 +9,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 - Wazuh (SIEM)
 - Cowrie (Honeypot)
 - Wireshark
-- Suricata / Zeek
+- Snort
 - MITRE ATT&CK
 
 ## 🧠 Skills
