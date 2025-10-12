@@ -1,6 +1,3 @@
-# SOC-Portofolio
-My Security Operations Center (SOC) Analyst Portofolio
-
 # SOC Analyst Portfolio
 
 Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, traffic, dan deteksi ancaman.
