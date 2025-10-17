@@ -18,5 +18,5 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 - Gunakan perintah istat ditambah inode yang sudah didapat untuk melihat status inode dari sebuah file. Disini kita dapat melihat informasi detail file tersebut mulai dari size, nama, metadata waktu dibuat, diakses dan terakhir ditulis hingga sektor mana saja yang digunakan oleh file tersebut
 
 ![Gambar icat](assets/img/icat.png)
-- Terakhir gunakan perintah icat untuk menampilkan isi dari file gumbo1.txt 
+- Terakhir gunakan perintah icat dan inode dari gumbo1.txt untuk menampilkan isinya. Jika ingin menyimpan hasilnya bisa gunakan > menjadi icat RHINOUSB.dd 4 > nama_file 
 
