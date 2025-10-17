@@ -10,6 +10,7 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 
 ![Gambar fsstat](assets/img/fsstat.png)
 - Gunakan perintah fsstat untuk melihat filesystem status secara detail, disini kita mendapat informasi seperti tipe file system yaitu FAT-16, Informasi metadata serta sector yang digunakan
+'''bash fsstat RHINOUSB.dd'''
 
 ![Gambar fls](assets/img/fls.png)
 - Gunakan perintah fls untuk meihat isi dari dump usb, tampak ada dua file pada gambar yaitu gumbo1.txt dengan inode 4 dan gumbo2.txt dengan inode 6. Dalam beberapa kasus file di dalam dump sudah dihapus untuk melihat file yang telah dihapus dapat menggunakan flag -d pada perintah menjadi fls -d juga flag -r untuk menampilkan file secara recursive
