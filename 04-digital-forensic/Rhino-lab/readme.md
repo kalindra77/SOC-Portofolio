@@ -22,4 +22,4 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 
 Tampaknya isi dump usb hanya berupa file teks resep masakan,tidak ada bukti apun yang mencurigakan dan mengarah ke tindakan kriminal.
 
-## Menganalisa file log network traffic
+## Menganalisa file log network traffic menggunakan Wireshark
