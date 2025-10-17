@@ -8,6 +8,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 - Suricata (IDS)
 - Wireshark
 - The Sleuth Kit (TSK)
+- Autopsy
 - Virustotal
 - MITRE ATT&CK
 
