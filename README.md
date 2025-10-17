@@ -5,7 +5,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 ## 🔧 Tools yang Digunakan
 - Wazuh (SIEM)
 - Cowrie (Honeypot)
-- Snort (IDS)
+- Suricata (IDS)
 - Wireshark
 - The Sleuth Kit (TSK)
 - Virustotal
@@ -25,6 +25,3 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 | [Traffic Analysis](02-wireshark-traffic-analysis/report.md) | Analisis PCAP dan identifikasi komunikasi mencurigakan | Wireshark |
 | [MITRE ATT&CK Mapping](03-mitre-attack-mapping/report.md) | Pemetaan taktik dan teknik dari hasil insiden | MITRE Framework |
 | [Digital Forensic](04-digital-forensic/report.md) | Analisis digital forensik dari hasil insiden | TSK, Wireshark | 
-
-## 📸 Screenshot
-![Dashboard Wazuh](assets/dashboard.png)
