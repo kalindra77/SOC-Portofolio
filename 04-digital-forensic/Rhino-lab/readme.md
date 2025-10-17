@@ -8,5 +8,5 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 
 Yang pertama kita mulai dari dump usb RHINOSUB.dd menggunakan The sleuth kit
 ![Gambar fsstat](assets/img/fsstat.png)
-
+Gunakan perintah fsstat untuk melihat filesystem status detail, disini file menggunakan formatb FAT-16
 
