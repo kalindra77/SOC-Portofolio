@@ -6,8 +6,8 @@ Saya akan coba menganalisa, mengidentifikasi, dan mencari bukti-bukti pada file 
 
 Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file dump usb juga Wireshark dan Bruteforcesharkcli untuk file log jaringannya
 
-## Yang pertama kita mulai dari dump usb RHINOSUB.dd menggunakan The sleuth kit
+## Yang pertama analisa dump usb menggunakan The sleuth kit
 
 ![Gambar fsstat](assets/img/fsstat.png)
--Gunakan perintah fsstat untuk melihat filesystem status detail, disini file menggunakan format FAT-16
+- Gunakan perintah fsstat untuk melihat filesystem status detail, disini file menggunakan format FAT-16
 
