@@ -12,13 +12,13 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 - Gunakan perintah **fsstat** untuk melihat filesystem status secara detail, disini kita mendapat informasi seperti tipe file system yaitu FAT-16, Informasi metadata serta sector yang digunakan
 
 ![Gambar fls](assets/img/fls.png)
-- Gunakan perintah fls untuk meihat isi dari dump usb, tampak ada dua file pada gambar yaitu gumbo1.txt dengan inode 4 dan gumbo2.txt dengan inode 6. Dalam beberapa kasus file di dalam dump sudah dihapus untuk melihat file yang telah dihapus dapat menggunakan flag -d pada perintah menjadi fls -d juga flag -r untuk menampilkan file secara recursive
+- Gunakan perintah **fls** untuk meihat isi dari dump usb, tampak ada dua file pada gambar yaitu gumbo1.txt dengan inode 4 dan gumbo2.txt dengan inode 6. Dalam beberapa kasus file di dalam dump sudah dihapus untuk melihat file yang telah dihapus dapat menggunakan flag -d pada perintah menjadi fls -d juga flag -r untuk menampilkan file secara recursive
 
 ![Gambar istat](assets/img/istat.png)
-- Gunakan perintah istat ditambah inode yang sudah didapat untuk melihat status inode dari sebuah file. Disini kita dapat melihat informasi detail file tersebut mulai dari size, nama, metadata waktu dibuat, diakses dan terakhir ditulis hingga sektor mana saja yang digunakan oleh file tersebut
+- Gunakan perintah **istat** ditambah inode yang sudah didapat untuk melihat status inode dari sebuah file. Disini kita dapat melihat informasi detail file tersebut mulai dari size, nama, metadata waktu dibuat, diakses dan terakhir ditulis hingga sektor mana saja yang digunakan oleh file tersebut
 
 ![Gambar icat](assets/img/icat.png)
-- Terakhir gunakan perintah icat dan inode dari gumbo1.txt untuk menampilkan isinya. Jika ingin menyimpan hasilnya bisa gunakan > menjadi icat RHINOUSB.dd 4 > nama_file 
+- Terakhir gunakan perintah **icat** beserta inode dari gumbo1.txt untuk menampilkan isinya. Jika ingin menyimpan hasilnya bisa gunakan > menjadi icat RHINOUSB.dd 4 > nama_file 
 
 Tampaknya isi dump usb hanya berupa file teks resep masakan,tidak ada bukti apun yang mencurigakan dan mengarah ke tindakan kriminal.
 
