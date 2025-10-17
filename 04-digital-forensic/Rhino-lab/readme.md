@@ -15,5 +15,8 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 - Gunakan perintah fls untuk meihat isi dari dump usb, tampak ada dua file pada gambar yaitu gumbo1.txt dengan inode 4 dan gumbo2.txt dengan inode 6. Dalam beberapa kasus file di dalam dump sudah dihapus untuk melihat file yang telah dihapus dapat menggunakan flag -d pada perintah menjadi fls -d juga flag -r untuk menampilkan file secara recursive
 
 ![Gambar istat](assets/img/istat.png)
-- Gunakan perintah istat ditambah inode yang sudah didapat untuk melihat status inode dari sebuah file. Disini kita dapat melihat informasi detail file tersebut mulai dari size, nama, metadata waktu dibuat, diakses dan terakhir ditulis hingga sektor mana saja yang digunakan oleh file tersebut 
+- Gunakan perintah istat ditambah inode yang sudah didapat untuk melihat status inode dari sebuah file. Disini kita dapat melihat informasi detail file tersebut mulai dari size, nama, metadata waktu dibuat, diakses dan terakhir ditulis hingga sektor mana saja yang digunakan oleh file tersebut
+
+![Gambar icat](assets/img/icat.png)
+- Terakhir gunakan perintah icat untuk menampilkan isi dari file gumbo1.txt 
 
