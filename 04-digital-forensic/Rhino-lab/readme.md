@@ -6,5 +6,7 @@ Saya akan coba menganalisa, mengidentifikasi, dan mencari bukti-bukti pada file 
 
 Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file dump usb juga Wireshark dan Bruteforcesharkcli untuk file log jaringannya
 
-Yang pertama kita mulai dari dump usb RHINOSUB.dd menggunakan The sleuth kit 
+Yang pertama kita mulai dari dump usb RHINOSUB.dd menggunakan The sleuth kit
+!(assets/img/fsstat.png)
+
 
