@@ -9,5 +9,5 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 ## Yang pertama analisa dump usb menggunakan The sleuth kit
 
 ![Gambar fsstat](assets/img/fsstat.png)
-- Gunakan perintah fsstat untuk melihat filesystem status detail, disini file menggunakan format FAT-16
+- Gunakan perintah fsstat untuk melihat filesystem status secara detail, disini kita mendapat informasi seperti tipe file system yaitu FAT-16, Informasi metadata serta sector yang digunakan file
 
