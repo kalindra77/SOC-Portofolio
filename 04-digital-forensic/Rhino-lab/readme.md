@@ -11,6 +11,6 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 ![Gambar fsstat](assets/img/fsstat.png)
 - Gunakan perintah fsstat untuk melihat filesystem status secara detail, disini kita mendapat informasi seperti tipe file system yaitu FAT-16, Informasi metadata serta sector yang digunakan
 
-![Gambar fls](assets/img/fls)
+![Gambar fls](assets/img/fls.png)
 - Gunakan perintah fls untuk meihat isi dari dump usb, tampak ada dua file pada gambar yaitu gumbo1.txt dengan inode 4 dan gumbo2.txt dengan inode 6
 
