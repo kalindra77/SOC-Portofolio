@@ -20,3 +20,6 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 ![Gambar icat](assets/img/icat.png)
 - Terakhir gunakan perintah icat dan inode dari gumbo1.txt untuk menampilkan isinya. Jika ingin menyimpan hasilnya bisa gunakan > menjadi icat RHINOUSB.dd 4 > nama_file 
 
+Tampaknya isi dump usb hanya berupa resep masakan, saya tidak mendapat hasil apapun disini. Saya akan melanjutkan ke file log traffic untuk mencari bukti
+
+## Menganalisa file log network traffic
