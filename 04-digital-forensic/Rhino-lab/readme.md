@@ -6,7 +6,7 @@ Saya akan coba menganalisa, mengidentifikasi, dan mencari bukti-bukti pada file 
 
 Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file dump usb juga Wireshark dan Bruteforcesharkcli untuk file log jaringannya
 
-## Yang pertama analisa dump usb menggunakan The sleuth kit
+## Menganalisa dump usb menggunakan The sleuth kit
 
 ![Gambar fsstat](assets/img/fsstat.png)
 - Gunakan perintah fsstat untuk melihat filesystem status secara detail, disini kita mendapat informasi seperti tipe file system yaitu FAT-16, Informasi metadata serta sector yang digunakan
