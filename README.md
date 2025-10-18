@@ -22,7 +22,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 ## 📂 Projects
 | Project | Deskripsi | Tools |
 |----------|------------|--------|
-| [SSH Brute Force Detection](01-wazuh-cowrie-bruteforce/report.md) | Analisis serangan brute force ke SSH honeypot | Wazuh, Cowrie |
-| [Traffic Analysis](02-wireshark-traffic-analysis/report.md) | Analisis PCAP dan identifikasi komunikasi mencurigakan | Wireshark |
-| [MITRE ATT&CK Mapping](03-mitre-attack-mapping/report.md) | Pemetaan taktik dan teknik dari hasil insiden | MITRE Framework |
+| [SOC lab](01-SOC-lab/readme.md) | lab Security Operation Center | Wazuh, Cowrie |
+| [Traffic Analysis](02-wireshark-traffic-analysis/readme.md) | Analisis PCAP dan identifikasi komunikasi mencurigakan | Wireshark |
+| [MITRE ATT&CK Mapping](03-mitre-attack-mapping/readme.md) | Pemetaan taktik dan teknik dari hasil insiden | MITRE Framework |
 | [Digital Forensic](04-digital-forensic) | Analisis digital forensik dari hasil insiden | TSK, Wireshark | 
