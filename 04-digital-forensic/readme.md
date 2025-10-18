@@ -1,7 +1,7 @@
 # Digital forensik
 
 <p align="center">
-  <img src="../assets/df.jpeg" width="300">
+  <img src="../assets/df.jpeg" width="250">
 </p>
 
 Digital Forensik adalah cabang ilmu forensik yang fokus pada identifikasi, pengumpulan, analisis, dan pelestarian bukti digital dari perangkat elektronik seperti komputer, smartphone, server, jaringan atau media penyimpanan lainnya.
