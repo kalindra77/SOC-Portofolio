@@ -53,7 +53,7 @@ Selanjutnya setelah menganalisa dump usb, ternyata tidak ditemukan hal-hal yang 
 ![Gambar log](assets/img/filter_ftp_klik.png)
 - Kita bisa melihat aliran data nya Dengan klik kanan pada log pertama pengriman lalu follow pilih TCP stream untuk melihat aliran data dan isi raw nya
 
-![Gambar raw](assets/img/raw.png)
+![Gambar raw](assets/img/raw_mark.png)
 - Di sini jika data berupa ASCII pada kolom show as ubah menjadi RAW lalu klik save as masukan nama file untuk disimpan
 
 ![Gambar rhino1](assets/img/rhino1.png)
