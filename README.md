@@ -20,9 +20,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 - Digital Forensic
 
 ## 📂 Projects
-| Project | Deskripsi | Tools |
-|----------|------------|--------|
-| [SOC lab](01-SOC-lab/readme.md) | lab Security Operation Center | Wazuh, Cowrie |
-| [Traffic Analysis](02-wireshark-traffic-analysis/readme.md) | Analisis PCAP dan identifikasi komunikasi mencurigakan | Wireshark |
-| [MITRE ATT&CK Mapping](03-mitre-attack-mapping/readme.md) | Pemetaan taktik dan teknik dari hasil insiden | MITRE Framework |
-| [Digital Forensic](04-digital-forensic) | Analisis digital forensik dari hasil insiden | TSK, Wireshark | 
+| Project | Deskripsi
+|----------|------------|
+| [SOC lab](01-SOC-lab) | lab Security Operation Center
+| [Digital Forensic](02-digital-forensic) | Analisis digital forensik dari hasil insiden
