@@ -8,6 +8,8 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 
 ## Menganalisa dump usb menggunakan The sleuth kit
 
+Pertama Saya akan menganalisa dump usb yang diberikan, bertujuan untuk mencari jejak dan bukti yang masih tersisa di usb, Disini saya hanya menggunakan The sleuth kit sebagai tools karena Autopsy sendiri hanya mempermudah menggunakan GUI yang pada dasarnya menggunakan TSK juga dibelakangnya.
+
 ![Gambar fsstat](assets/img/fsstat.png)
 - Gunakan perintah **fsstat** untuk melihat filesystem status secara detail, disini kita mendapat informasi seperti tipe file system yaitu FAT-16, Informasi metadata serta sector yang digunakan
 
