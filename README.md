@@ -22,5 +22,5 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 ## 📂 Projects
 | Project | Deskripsi
 |----------|------------|
-| [SOC lab](01-SOC-lab) | lab Security Operation Center
+| [SOC-lab](01-SOC-lab) | Lab Security Operation Center
 | [Digital Forensic](02-digital-forensic) | Analisis digital forensik dari hasil insiden
