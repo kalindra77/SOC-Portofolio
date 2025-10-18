@@ -2,6 +2,22 @@
 
 Disini saya menggunakan skenario rhino yang mana kita diberi tugas menganalisa dan mencari jejak pada file hasil dump yang telah diberikan untuk mengungkap sebuah kasus 
 
+Tugasnya adalah memulihkan setidaknya sembilan gambar badak dari bukti yang tersedia dan memasukkannya ke dalam laporan singkat
+
+• Siapa yang memberi terdakwa akun telnet/ftp?
+
+• Apa nama pengguna/kata sandi untuk akun tersebut?
+
+• Transfer berkas relevan apa yang muncul dalam jejak jaringan?
+
+• Apa yang terjadi pada hard drive di komputer? Di mana sekarang?
+
+• Apa yang terjadi pada key USB?
+
+• Apa yang dapat dipulihkan dari image dd USB?
+
+Apakah ada bukti yang menghubungkan kunci USB dan jejak jaringan? Jika ada, apa?
+
 Saya akan coba menganalisa, mengidentifikasi, dan mencari bukti-bukti pada file RHINOUSB.dd dan traffic jaringan yang sudah ditangkap dalam bentuk bebrapa file log.
 
 Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file dump usb juga Wireshark dan Bruteforcesharkcli untuk file log jaringannya
