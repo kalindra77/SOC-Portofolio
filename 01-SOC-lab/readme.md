@@ -1,4 +1,8 @@
-# SOC-lab
+# SOC
+
+<p align="center">
+  <img src="../assets/soc.png" width="250">
+</p>
 
 Security operations center atau sering disingkat SOC adalah pusat operasi keamanan tempat tim siber sebuah organisasi memantau, menganalisis, dan merespons insiden kemanan di jaringan, sistem, dan aplikasi organisasi.
 
