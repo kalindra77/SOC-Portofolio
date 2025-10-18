@@ -4,7 +4,7 @@ Disini saya menggunakan skenario rhino yang mana kita diberi tugas menganalisa d
 
 Tugasnya adalah memulihkan setidaknya sembilan gambar badak dari bukti yang tersedia dan memasukkannya ke dalam laporan singkat
 
-• Siapa yang memberi terdakwa akun telnet/ftp?
+• Siapa yang memberi tersangka akun telnet/ftp?
 
 • Apa nama pengguna/kata sandi untuk akun tersebut?
 
@@ -24,8 +24,6 @@ Saya Menggunakan tools yaitu autopsy dan the sleuth kit untuk menganalisa file d
 
 ## Menganalisa file log network traffic menggunakan Wireshark
 
-Selanjutnya setelah menganalisa dump usb, ternyata tidak ditemukan hal-hal yang mencurigakan, dalam file zip ini ada 3 buah log file yang berisi log traffic jaringan, untuk melanjutkan investigasi saya menggunakan wireshark untuk menganalisa log traffic ini
-
 ![Gambar filter](assets/img/filter_ftp_userpass.png)
 - Buka file dengan wireshark lalu gunakan filter **ftp or ftp-data** untuk melihat lalu lintas ftp pada log, dapat dilihat di atas ada user dan password ftp yang tidak terenkripsi pertanyaan username dan password terjawab username: gnome password: gnome123
 
@@ -40,7 +38,7 @@ Selanjutnya setelah menganalisa dump usb, ternyata tidak ditemukan hal-hal yang 
 
 ![Gambar rhino1](assets/img/rhino1.png)
 - Hasilnya adalah file rhino1 yang berhasil di recover, gambar menunjukan seekor badak di alam liar
-- Saya melakukan cara yang sama untuk merecoever semua file yang terdapat pada semua log tersebut termasuk file contrapand.zip
+- Saya melakukan cara yang sama untuk merecover semua file yang terdapat pada semua log tersebut termasuk file contrapand.zip
 
 ![Gambar contrapand](assets/img/zip_locked.png)
 
@@ -53,4 +51,31 @@ Selanjutnya setelah menganalisa dump usb, ternyata tidak ditemukan hal-hal yang 
 
 ![Gambar rhino2](assets/img/rhino2.png) 
 
-- Hasilnya adalah gambar rhino2.jpg 
+- Hasilnya adalah gambar rhino2.jpg
+
+## Menganalisa image dump dd menggunakan Autopsy
+
+Selanjutnya setelah selesai menganalisa log jaringan saya lanjut denga image dump dd dari usb 
+
+![Gambar autopsy](assets/img/autopsy.png)
+![Gambar autopsy_2](assets/img/autopsy_2.png)
+- Hasil dari autopsy menunjukan sebuah file yang mengungkap semuanya 
+
+![Gambar shedied](assets/img/shedied.png)
+- Sebuah document berisi tulisan seseorang tentang apa yang terjadi sebenarnya 
+
+## Kesimpulan dan jawaban
+
+Siapa yang memberi terdakwa akun telnet/ftp? Jeremy 
+
+Apa nama pengguna/kata sandi untuk akun tersebut? gnome:gnome123
+
+Transfer berkas relevan apa yang muncul dalam jejak jaringan? beberapa foto badak  
+
+Apa yang terjadi pada hard drive di komputer? Di mana sekarang? Hard drive dicopot dan dibuang ke sungai mississipi
+
+Apa yang terjadi pada USB? tersangka menimpa (wipe) data di usb berharap tidak dapat dipulihkan
+
+Apa yang dapat dipulihkan dari image dd USB? file file yang dihapus dan metadatanya 
+
+
