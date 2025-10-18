@@ -42,6 +42,19 @@ Tampaknya isi dump usb hanya berupa file teks resep masakan,tidak ada bukti apun
 
 ## Menganalisa file log network traffic menggunakan Wireshark
 
-Setelah menganalisa dump usb, ternyata tidak ditemukan hal-hal yang mencurigakan, dalam file zip ini ada 3 buah log file yang berisi log traffic jaringan, untuk melanjutkan investigasi saya menggunakan wireshark untuk menganalisa log traffic ini
+Selanjutnya setelah menganalisa dump usb, ternyata tidak ditemukan hal-hal yang mencurigakan, dalam file zip ini ada 3 buah log file yang berisi log traffic jaringan, untuk melanjutkan investigasi saya menggunakan wireshark untuk menganalisa log traffic ini
 
+![Gambar filter](assets/img/filter_ftp_userpass.png)
+- Buka file dengan wireshark lalu gunakan filter **ftp or ftp-data* untuk melihat lalu lintas ftp pada log, dapat dilihat di atas ada user dan password ftp yang tidak terenkripsi pertanyaan username dan password terjawab username: gnome password: gnome123
 
+![Gambar log](assets/img/filter_ftp_send.png)
+- Bisa dilihat ada traffic pengiriman data melalui ftp dengan nama file rhino1.jpg, kita bisa merocevery file tersebut dengan melihat raw data nya
+
+![Gambar log](assets/img/filter_ftp_klik.png)
+- Kita bisa melihat aliran data nya Dengan klik kanan pada log pertama pengriman lalu follow pilih TCP stream untuk melihat aliran data dan isi raw nya
+
+![Gambar raw](assets/img/raw.png)
+- Di sini jika data berupa ASCII ubah menjadi RAW lalu klik save as masukan nama file untuk disimpan
+
+![Gambar rhino1](assets/img/rhino1.png)
+- Hasilnya adalah file rhino1 yang berhasil di recover, gambar menunjukan seekor badak di alam liar
