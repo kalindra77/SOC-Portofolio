@@ -16,11 +16,11 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 
 ## 🧠 Skills
 - Log analysis
-- Basic android malware analysis 
+- Digital Forensic
 - Incident detection & response
 - Threat intelligence mapping
 - Network analysis (TCP/IP, DNS, HTTP, SSH)
-- Digital Forensic
+- Basic android malware analysis 
 - Education and prevention of phishing and fraud
 
 ## 📂 Projects
