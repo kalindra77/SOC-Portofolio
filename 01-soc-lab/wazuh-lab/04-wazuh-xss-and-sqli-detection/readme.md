@@ -28,7 +28,9 @@ Pada dasarnya wazuh telah mempunyai rules default untuk mendeteksi payload berba
 
 ![gambar payload sqli](assets/img/payload-sqli.png)
 
-![gambar dashboard sqli](assets/img/dashboard-sqli.png)
+![gambar dashboard sqli1](assets/img/dashboard-sqli.png)
+
+![gambar dashboard sqli2](assets/img/dashboard-sqli2.png)
 
 - Dan payload nya pun mentrigger alert pada dashboard wazuh dengan level 6, juga kita dapat melihat detail sumber ip attacker dan payload apa yang dimasukan
 
