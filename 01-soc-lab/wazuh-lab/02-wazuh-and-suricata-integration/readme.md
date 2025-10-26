@@ -16,4 +16,29 @@ Mengintegrasikan suricata dengan wazuh bertujuan untuk membangun sistem deteksi 
 ```bash
 sudo apt install suricata -y
 ```
+2. Biasanya akan ada tampilan untuk setup jaringan yang ingin dipantau atau bisa kita set di */etc/suricata/suricata.yaml*
+
+3. Pada bagian HOME_NET baris pertama bisa di setting dan disesuaikan dengan jaringan yang ingin dipantau oleh suricata
+
+4. Setelah itu selesai penginstallan suricata lanjut ke setup wazuh-agent agar dapat memantau jaringan pada suricata
+
+5. Masuk ke */var/ossec/etc/ossec.conf* pada wazuh-agent dan tambahkan baris baru di dalam tag <ossec_config> paling bawah, penting!!! suricata menghasilkan dua log di */var/log/suricata/* yaitu *eve.json* dan *fast.log*. Perbedaan keduanya adalah pada informasi yang diberikan *fast.log* hanya memebrikan informasi ringkas tentang alert yang dimunculkan, sementara *eve.json* memebrikan informasi detail terkait alert dan ini yang biasa digunakan karena dapat memebri informasi full pada dashboard wazuh.  
+```bash
+<ossec_config>
+
+  <local_file>
+    <log_format>json</log-format>
+    <location>/var/log/eve.json</location> # arahkan ke path log suricata 
+  </local_file>
+  
+</ossec_config>
+```
+6. Restart wazuh-agent
+```bash
+sudo systemctl restart wazuh-agent
+```
+7. Setelah itu bisa tes alert dengan command dan lihat pada dashboard wazuh 
+```bash
+curl https://testmynids.org/uid.index.html
+```
 
