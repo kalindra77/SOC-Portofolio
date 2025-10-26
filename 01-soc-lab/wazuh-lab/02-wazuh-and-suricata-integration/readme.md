@@ -19,10 +19,20 @@ sudo apt install suricata -y
 2. Biasanya akan ada tampilan untuk setup jaringan yang ingin dipantau atau bisa kita set di */etc/suricata/suricata.yaml*
 
 3. Pada bagian HOME_NET baris pertama bisa di setting dan disesuaikan dengan jaringan yang ingin dipantau oleh suricata
+```bash
+vars:
+  # more specific is better for alert accuracy and performance
+  address-groups:
+    HOME_NET: "[192.168.0.0/16,10.0.0.0/8,172.16.0.0/12]"
+    #HOME_NET: "[192.168.0.0/16]"
+    #HOME_NET: "[10.0.0.0/8]"
+    #HOME_NET: "[172.16.0.0/12]"
+    #HOME_NET: "any"
+```
 
-4. Setelah itu selesai penginstallan suricata lanjut ke setup wazuh-agent agar dapat memantau jaringan pada suricata
+4. Setelah itu selesai penginstallan dan setting suricata lanjut ke setup wazuh-agent agar dapat memantau log yang dihasilkan suricata
 
-5. Masuk ke */var/ossec/etc/ossec.conf* pada wazuh-agent dan tambahkan baris baru di dalam tag <ossec_config> paling bawah, penting!!! suricata menghasilkan dua log di */var/log/suricata/* yaitu *eve.json* dan *fast.log*. Perbedaan keduanya adalah pada informasi yang diberikan *fast.log* hanya memebrikan informasi ringkas tentang alert yang dimunculkan, sementara *eve.json* memebrikan informasi detail terkait alert dan ini yang biasa digunakan karena dapat memebri informasi full pada dashboard wazuh.  
+5. Masuk ke */var/ossec/etc/ossec.conf* pada wazuh-agent dan tambahkan baris baru di dalam tag <ossec_config> paling bawah, penting!!! suricata menghasilkan dua log di */var/log/suricata/* yaitu *eve.json* dan *fast.log*. Perbedaan keduanya adalah pada informasi yang diberikan *fast.log* hanya memebrikan informasi ringkas tentang alert yang dimunculkan, sementara *eve.json* memebrikan informasi detail terkait alert dan ini yang biasa digunakan karena dapat memeberi informasi lebih detail pada dashboard wazuh.  
 ```bash
 <ossec_config>
 
@@ -37,8 +47,22 @@ sudo apt install suricata -y
 ```bash
 sudo systemctl restart wazuh-agent
 ```
-7. Setelah itu bisa tes alert dengan command dan lihat pada dashboard wazuh 
+7. Setelah itu bisa tes alert dengan command dan lihat pada dashboard wazuh alert yang muncul dari suricata
 ```bash
 curl https://testmynids.org/uid.index.html
 ```
+## Troubleshooting Suricata
+
+Banyak masalah yang dikeluhkan terkait alert suricata yang tidak muncul pada dashboard wazuh. Perlu dipahami pada suricata versi terbaru field yang dihasilkan pada *eve.json* sangat banyak dan bertele-tele ini menyebabakan json-decoder pada wazuh kewalahan dan tidak dapat menanganinya,bisanya akan ada peringatan pada ossec.log di wazuh-server seperti: *to many fields for json-decoder* hal ini dapat diatasi dengan beberapa cara namun yang paling efektif adalah dengan mengurangi dan menyortir jumlah field pada suricata agar tidak terlalu banyak tapi tidak membuang field penting
+
+1. edit */etc/suricata/suricata.yaml* pada bagian eve-log isi seperti pada gambar
+
+![suricata yaml](assets/img/suricata-yaml.png)
+
+2. Ini akan meminimalkan field yang dihasilkan tanpa membuang field penting yang dibutuhkan oleh wazuh
+
+3. Setelah itu cek apakah masih ada peringatan pada *ossec.log* di wazuh server, jika tidak coba trigger alert pada suricata dan cek apakah log masuk ke dashboard.
+
+
+ 
 
