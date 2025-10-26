@@ -6,7 +6,7 @@ Wazuh sebagai SIEM akan mengumpulkan berbagai macam log termasuk dari service se
 
 Pada dasarnya wazuh telah mempunyai rules default untuk mendeteksi payload berbahaya yang dimasukan attacker seperti xss dan sqli serta serangan pada web lainnya, namun ketika penginstallan pertama wazuh biasanya alert yang muncul hanya yang berlevel 7 atau lebih karena konfigurasi bawaan pada *ossec.conf*, sementara rules xss dan sqli mempunyai level 6 by default. Jadi kita harus menurunkan batas level untuk memunculkan alert atau menaikan level rules xss dan sqli itu sendiri.
 
-![gambar rules](assets/img/rules-xss-sqli)
+![gambar rules](assets/img/rules-xss-sqli.png)
 
 - Saya sudah membuat page sederhana untuk dijadikan target serangan
 
