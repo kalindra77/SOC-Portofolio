@@ -8,4 +8,12 @@ Suricata merupakan IDS (intrusion detection system) yang dikembangkan OISF. Dira
 
 ## Integrasi dengan wazuh
 
-Saya akan melakukan integrasi suricata dengan wazuh sebagai salah satu upaya enrichment data kemanan dari log yang dihasilkan suricata dan ditampilkan di wazuh dashboard
+Mengintegrasikan suricata dengan wazuh bertujuan untuk membangun sistem deteksi ancaman yang lebih komprehensif dengan menggabungkan kemampuan Intrusion detection system (IDS) dari suricata dan Security information and event management (SIEM) milik wazuh. mengintegrasikan suricata dengan wazuh terbilang cukup mudah dilakukan karena memang keduanya sudah mendukung environment masing masing.
+
+## Langkah-langkah
+
+1. Menginstall suricata pada mesin yang akan dijadikan sebagai IDS di sini saya gabungkan dengan agent wazuh karena saya hanya menggunakan dua mesin 
+```bash
+sudo apt install suricata -y
+```
+
