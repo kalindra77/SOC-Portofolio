@@ -7,6 +7,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 - Cowrie (Honeypot)
 - Suricata (IDS)
 - Mobsf (Mobile security framework)
+- Metasploit Framework
 - Wireshark
 - The Sleuth Kit
 - Autopsy
