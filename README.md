@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/soc.png" width="300">
+  <img src="assets/soc.png" width="450">
 </p>
 
 # SOC Analyst Portfolio
