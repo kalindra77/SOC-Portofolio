@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/soc.png" width="300">
+</p>
+
 # SOC Analyst Portfolio
 
 Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, traffic, dan deteksi ancaman.
