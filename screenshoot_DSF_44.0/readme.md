@@ -1,1 +1,0 @@
-Semua screen shoot absensi
