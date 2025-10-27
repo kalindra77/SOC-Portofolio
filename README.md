@@ -15,7 +15,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 - Wireshark
 - The Sleuth Kit
 - Autopsy
-- Volatilty
+- Volatility
 - Virustotal
 - MITRE ATT&CK
 
