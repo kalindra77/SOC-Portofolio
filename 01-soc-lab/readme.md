@@ -8,8 +8,8 @@ Security operations center atau sering disingkat SOC adalah pusat operasi keaman
 
 Biasanya di dalam SOC dibagi menjadi 3 level/layer dengan keahlian dan bidang tertentu tergantung kebijakan organisai tersebut namun jika secara umum bisa dikategorikan sebagai berikut:
 
-- L1 > log analyst / log monitor yang memonitor log Seperti SIEM, IDS, EDR/XDR untuk mendetksi ancaman   
+- L1 > log analyst / log monitoring yang memonitor log Seperti SIEM, IDS, EDR/XDR untuk mendetksi ancaman   
 - L2 > Threat hunter yang proaktif mencari, mencegah, dan mendeteksi ancaman sebelum benar benar menyerang sistem
-- L3 > Forensic Specialist / Advanced analyst biasanya seorang yang memiliki keahlian dan berpengalaman dalam dunia blue teaming  
+- L3 > Advanced analyst / Forensic Analyst biasanya seorang yang memiliki keahlian dan berpengalaman dalam dunia blue teaming  
 
 SOC adalah garda terdepan dalam mendeteksi, menemukan, menganalisa dan mencegah kompromi yang dapat mengancam sistem bahkan sebelum ancaman itu benar benar menyerang. oleh karena itu SOC menjadi komponen wajib sebuah organisasi di era yang serba digital ini.
