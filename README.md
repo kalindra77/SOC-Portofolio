@@ -1,3 +1,4 @@
+![Thubmnail](assets/soc,png)
 <p align="center">
   <img src="assets/soc.png" width="400">
 </p>
