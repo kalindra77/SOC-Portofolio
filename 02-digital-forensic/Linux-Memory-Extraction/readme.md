@@ -9,3 +9,15 @@ Kali ini saya akan mencoba mengekstraksi memory (RAM) pada linux menggunakan LiM
 ## Ekstraksi Memory
 
 Untuk mengekstraksi memory di linux kita memerlukan kernel modul bernama Lime yang dapat diunduh pada repositry ini https://github.com/504ensicsLabs/LiME
+```bash
+git clone https://github.com/s04ensicsLabs/LiME
+```
+Setelah selesai, masuk ke directori LiME/src/ lalu jalankan perintah **make**. Perintah ini akan membuat sebuah file modul kernel yang nantinya digunakan untuk mengekstraksi memory.
+
+```bash
+cd LiME/src
+make
+```
+setelah proses selesai maka akan muncul sebuah file modul kernel yang berekstensi ko
+
+[gambar ko](assets/img/ko.png)
