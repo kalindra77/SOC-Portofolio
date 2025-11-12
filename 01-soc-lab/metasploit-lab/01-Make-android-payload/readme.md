@@ -1,0 +1,3 @@
+# Membuat payload android dengan msfvenom
+
+Dalam metasploit framework ada salah satu alat yang digunakan untuk membuat payload (malicious code / shellcode) yaitu msfvenom. Msfvenom biasa digunakn untuk tujuan penetration testing terkontrol hingga exploit development, karena penggunaanya yang mudah dan fungsi yang luas. Namun karena Metasploit merupakan framework berbasis open-source payload yang dihasilkan oleh msfvenom menjadi mudah dikenali. Oleh karena itu payload ini jarang digunakan dalam penetration testing sesungguhnya karena anti-virus dan sistem keamanan lainnya dapat mengenali signaturenya dengan mudah. 
