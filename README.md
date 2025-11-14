@@ -7,15 +7,11 @@
 Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, traffic, dan deteksi ancaman.
 
 ## 🔧 Tools yang Digunakan
-- Wazuh (SIEM)
-- Cowrie (Honeypot)
-- Suricata (IDS)
+- Wazuh (SIEM), Suricata (IDS), Cowrie (Honeypot)
 - Mobsf (Mobile security framework)
-- Metasploit Framework
+- Metasploit Framework & Kali linux
+- The Sleuth Kit, Autopsy, Volatility (Forensic tools)
 - Wireshark
-- The Sleuth Kit
-- Autopsy
-- Volatility
 - Virustotal
 - MITRE ATT&CK
 
@@ -23,7 +19,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 - Log analysis
 - Digital Forensic
 - Incident detection & response
-- Threat intelligence mapping
+- Threat intelligence & hunting
 - Network analysis (TCP/IP, DNS, HTTP, SSH)
 - Basic android malware analysis 
 - Education and prevention of phishing and fraud
