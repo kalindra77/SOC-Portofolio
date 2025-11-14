@@ -10,7 +10,7 @@ Biasanya di dalam SOC dibagi menjadi 3 level/layer dengan keahlian dan bidang te
 
 - L1 > Monitoring & Triage: melakukan monitor log dan alert Seperti SIEM, IDS, EDR/XDR untuk mendeteksi ancaman dan melakukan triase alert. Menjadi garis depan dalam SOC dan deteksi awal ancaman, Melakukan eskalasi ke L2 jika diperlukan
     
-- L2 > Indcident Respone & Deep Analysis: Melanjutkan investigasi dari L1 (root cause analysis) dengan deep analysis dan investigasi insiden yang telah dikonfirmasi
+- L2 > Incident Respone & Deep Analysis: Melanjutkan investigasi dari L1 (root cause analysis) dengan deep analysis dan investigasi insiden yang telah dikonfirmasi
  
 - L3 > Threat Hunting & Forensics: Investigasi mendalam dan pengembangan deteksi. Threat hunter proaktif mencari tanda serangan sebelum terjadi dan digital forensik untuk mendalami dan mencari bukti insiden pada sistem
 

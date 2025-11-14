@@ -1,4 +1,4 @@
-# Phising and Fraud
+# Phising & Fraud
 
 <p align="center">
   <img src="assets/img/phising.jpg" width="300">
