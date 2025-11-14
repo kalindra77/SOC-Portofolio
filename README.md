@@ -31,7 +31,7 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 ## 📂 Projects
 | Project | Deskripsi
 |----------|------------|
-| [SOC-lab](01-soc-lab) | Lab Security Operation Center
-| [Digital Forensic](02-digital-forensic) | Analisis digital forensik dari hasil insiden
+| [SOC-lab](01-soc-lab) | Home lab SOC dan Penetration testing 
+| [Digital Forensic](02-digital-forensic) | Analisis digital forensik dari hasil insiden 
 | [Android Malware analysis](03-android-malware-analysis) | Analisis android malware
-| [Phising and Fraud](04-phising-and-fraud) | Phising dan Fraud
+| [Phising and Fraud](04-phising-and-fraud) | Pengalaman dalam Phising dan Fraud serta edukasi pencegahan 
