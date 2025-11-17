@@ -30,4 +30,4 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 | [SOC-Lab](01-soc-lab) | Home lab SOC dan Penetration testing 
 | [Digital Forensic](02-digital-forensic) | Analisis digital forensik dari hasil insiden 
 | [Android Malware analysis](03-android-malware-analysis) | Analisis android malware
-| [Phising, Fraud, And Social Engineering](04-phising-and-fraud) | Pengalaman dalam Phising dan Fraud serta edukasi pencegahan 
+| [Phising, Fraud, And Social Engineering](04-phising-fraud-and-social-engineering) | Pengalaman dalam Phising dan Fraud serta edukasi pencegahan 
