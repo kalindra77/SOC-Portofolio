@@ -18,6 +18,16 @@ Setelah selesai, masuk ke directori LiME/src/ lalu jalankan perintah **make**. P
 cd LiME/src
 make
 ```
-setelah proses selesai maka akan muncul sebuah file modul kernel yang berekstensi ko
+setelah proses selesai maka akan muncul sebuah file modul kernel yang berekstensi ko. ini merupakan hasil compile dari LiME sesuai dengan kernel kita.
 
-[gambar ko](assets/img/ko.png)
+Selanjutnya kita hanya perlu insert modul kedalam kernel dan LiME akan otomatis mengakuisisi memory
+
+```bash
+sudo insmod <file.ko> path=<target_path> format=<format>
+```
+Ganti <file.ko> dengan hasil compile tadi, isi path dengan folder serta output kita, dan format dengan raw atau lime.
+
+raw : dump persis seperti isi ram byte by byte tanpa metadata
+
+lime : format lime sendiri, ada sedikit metadata tambahan untuk memudahkan proses forensik 
+
