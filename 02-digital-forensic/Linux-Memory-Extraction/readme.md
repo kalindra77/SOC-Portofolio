@@ -25,9 +25,9 @@ Selanjutnya kita hanya perlu insert modul kedalam kernel dan LiME akan otomatis 
 ```bash
 sudo insmod <file.ko> path=<target_path> format=<format>
 ```
-Ganti <file.ko> dengan hasil compile tadi, isi path dengan folder serta output kita, dan format dengan raw atau lime.
+Ganti <file.ko> dengan hasil compile tadi, isi path dengan folder serta output kita, dan format dengan raw atau lime. waktu yang dibutuhkan tergantung size memory yang diakuisi.
 
-raw : dump persis seperti isi ram byte by byte tanpa metadata
+**raw** : dump persis seperti isi ram byte by byte tanpa metadata
 
-lime : format lime sendiri, ada sedikit metadata tambahan untuk memudahkan proses forensik 
+**lime** : format lime sendiri, ada sedikit metadata tambahan untuk memudahkan proses forensik 
 
