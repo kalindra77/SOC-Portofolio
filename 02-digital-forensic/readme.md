@@ -1,4 +1,4 @@
-# Digital forensik
+# Digital forensic
 
 <p align="center">
   <img src="../assets/digfor.jpeg" width="400">
