@@ -11,9 +11,8 @@ Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, tr
 - Mobsf (Mobile security framework)
 - Metasploit Framework & Kali linux
 - The Sleuth Kit, Autopsy, Volatility (Forensic tools)
-- Wireshark
-- Virustotal
-- MITRE ATT&CK
+- Wireshark & Network-Miner (Network analysis)
+- Virustotal & MITRE ATT&CK
 
 ## 🧑‍💻 Skills
 - Log analysis
