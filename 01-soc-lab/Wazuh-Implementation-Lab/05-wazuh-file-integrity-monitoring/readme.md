@@ -8,7 +8,7 @@ Untuk FIM kita perlu mengkonfigurasi **ossec.conf** pada wazuh-agent, kita dapat
 
 ![gambar ossec-conf](assets/img/ossec-conf.png)
 
-- Bukan navigation bar dan FIM ada pada tab **Endpoint Security** 
+- Buka navigation bar dan FIM ada pada tab **Endpoint Security** 
 
 ![gambar tab-fim](assets/img/nav-bar.png)
  
@@ -24,7 +24,7 @@ Untuk FIM kita perlu mengkonfigurasi **ossec.conf** pada wazuh-agent, kita dapat
 
 ![gambar inspect](assets/img/inspect.png)
 
-- Selanjutnya dapat dilkaukan deep analysis oleh tim keamanan untuk memastikan file yang berubah bukan false positive dan mencari tanda tanda Indicator of Compromise (IoC) pada sistem / endpoint yang di monitor.
+- Selanjutnya dapat dilakukan deep analysis oleh tim keamanan untuk memastikan file yang berubah bukan false positive dan mencari Indicator of Compromise (IoC) tau Indicator of Attack (IoA) pada sistem / endpoint yang di monitor.
 
 ## Kesimpulan 
 
