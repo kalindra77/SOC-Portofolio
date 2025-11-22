@@ -4,7 +4,7 @@ File integrity monitoring (FIM) merupakan salah satu fitur dalam wazuh yang berf
 
 ## Konfigurasi Dan Test Alert Pada FIM
 
-Untuk FIM kita perlu mengkonfigurasi **ossec.conf** pada wazuh-agent, kita dapat menyesuaikan interval waktu, direktori yang harus di cek dan direktori yang diabaikan. Defaultnya wazuh akan mengecek direktori sensitif seperti **/bin, /sbin, /etc, dan /boot** dan mengabaikan direktori yang sering berubah-ubah seperti **/var, /home, dan /dev.
+Untuk FIM kita perlu mengkonfigurasi **ossec.conf** pada wazuh-agent, kita dapat menyesuaikan interval waktu, direktori yang harus di cek dan direktori yang diabaikan. Defaultnya wazuh akan mengecek direktori sensitif seperti **/bin, /sbin, /etc, dan /boot** dan mengabaikan direktori yang sering berubah-ubah seperti **/var, /home, dan /dev**.
 
 ![gambar ossec-conf](assets/img/ossec-conf.png)
 
