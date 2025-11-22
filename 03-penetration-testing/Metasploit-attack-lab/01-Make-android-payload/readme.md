@@ -39,4 +39,4 @@ Saatnya menjalankan aplikasi. PENTING!!! jika sesi tidak terbuka otomatis artiny
 
 ![gambar sesi-connect](assets/img/sesi-connect.png)
 
-Dan boom!!kita mendapat sesi shell dari perangkat target, selanjutnya kita bisa mengeksplorasi fitur fitur seperti dump sms, dump contact, screenshoot, membuka layanan, dll. Perlu diketahui Android 11+ sudah menggunakan proteksin yang lebih aman dan modern jadi kemungkinan payload ini berhasil sangat kecil, diperlukan cara khusus seperti teknik obfuscate atau penyamaran untuk mengelabui anti virus dan mendapat akses. 
+Dan boom!!kita mendapat sesi shell dari perangkat target, selanjutnya kita bisa mengeksplorasi fitur fitur seperti dump sms, dump contact, screenshoot, membuka layanan, dll. Perlu diketahui Android 11+ sudah menggunakan proteksi yang lebih aman dan modern jadi kemungkinan payload ini berhasil sangat kecil, diperlukan cara khusus seperti teknik obfuscate atau penyamaran untuk mengelabui anti virus dan mendapat akses. 
