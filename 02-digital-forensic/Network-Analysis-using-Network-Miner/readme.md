@@ -12,11 +12,11 @@ Dalam digital forensik traffic network merupakan salah satu sumber data yang san
 
 - Pertama kita harus menangkap traffic jairngan untuk dianalisa atau kita bisa menggunakan sample traffic yang didapat dari internet.
 
-[gambar network dump](assets/img/network-dump.png)
+![gambar network dump](assets/img/network-dump.png)
 
 - Setelah itu kita dapat membuka file pcap yang sudah ditangkap dari dalam network-miner dan ini hasil yang ditampilkan network-miner
 
-[gambar network miner](assets/img/dashboard-nm.png)
+![gambar network miner](assets/img/dashboard-nm.png)
 
 - Fitur yang diberikan network-miner dalam versi gratis cukup terbatas, oleh karena itu kita hanya dapat menjelajahi fitur fitur dasar yang tersedia seperti yang dapat dilihat pada navigation bar diatas.
 
