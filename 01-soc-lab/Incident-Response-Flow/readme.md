@@ -1,7 +1,7 @@
 # Incident Response Flow
 
 <p align="center">
-  <img src="assets/img/ir.png" width="400">
+  <img src="assets/img/ir.png" width="550">
 </p>
 
 Incident-Response adalah proses yang terstruktur untuk mendeteksi, menangani, dan memulihkan sistem setelah terjadi insiden. Tujuan utamanya adalah meminimalkan kerusakan, memulihkan sistem secepat mungkin, dan mencegah insiden terulang kembali. 
