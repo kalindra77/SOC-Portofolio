@@ -1,4 +1,4 @@
-# Pengalaman menelusuri pelaku phising dan penipuan
+# Pengalaman menelusuri pelaku penipuan via Telegram
 
 <p align="center">
   <img src="assets/img/tele.jpeg">
