@@ -2,7 +2,7 @@
   <img src="assets/soc.png" width="400">
 </p>
 
-# My Portfolio
+# SOC analyst portofolio
 
 Repositori ini memamerkan Mini SOC Home Lab saya, yang mendokumentasikan perjalanan pembelajaran cybersecurity saya melalui Threat simulation, forensik digital, respon insiden, dan penerapan tools yang digunakan dalam SOC.
 
