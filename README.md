@@ -2,9 +2,9 @@
   <img src="assets/soc.png" width="400">
 </p>
 
-# SOC Analyst Portfolio
+# My Portfolio
 
-Kumpulan proyek investigasi dan analisis insiden keamanan siber berbasis log, traffic, dan deteksi ancaman.
+Repositori ini memamerkan Mini SOC Home Lab saya, yang mendokumentasikan perjalanan pembelajaran cybersecurity saya melalui Threat simulation, forensik digital, respon insiden, dan penerapan tools yang digunakan dalam SOC.
 
 ## 🛠️ Tools yang Digunakan
 - Wazuh (SIEM), Suricata (IDS), Cowrie (Honeypot)
