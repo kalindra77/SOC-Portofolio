@@ -30,4 +30,4 @@ Repositori ini memamerkan Mini SOC Home Lab saya, yang mendokumentasikan perjala
 | [Digital Forensic](02-digital-forensic) | Analisis forensik dan identifikasi artifak digital
 | [Penetration testing](03-penetration-testing) | Penetration testing & vulnerability assesment (VAPT)
 | [Android Malware analysis](04-android-malware-analysis) | Analisis statis dan dinamis pada malware android 
-| [Phising, Fraud, And Social Engineering](05-phising-fraud-and-social-engineering) | Memahami dan mempelajari Human vulnerability serta pengalaman dalam Phising, fraud & scam, serta edukasi pencegahannya
+| [Phising, Fraud, And Social Engineering](05-phising-fraud-and-social-engineering) | Memahami dan mempelajari Human vulnerability serta pengalaman dalam Phising, fraud/scam, dan juga edukasi pencegahannya
