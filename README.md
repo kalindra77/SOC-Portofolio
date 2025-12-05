@@ -26,8 +26,8 @@ Repositori ini memamerkan Mini SOC Home Lab saya, yang mendokumentasikan perjala
 ## 📂 Projects
 | Project | Deskripsi
 |----------|------------|
-| [SOC-Lab](01-soc-lab) | Home lab SOC termasuk penerapan tools yang digunakan dalam SOC dan simulasi insiden
-| [Digital Forensic](02-digital-forensic) | Analisis forensik dan identifikasi artifak 
+| [SOC-Lab](01-soc-lab) | Home lab SOC, simulasi insiden, dan pengimplementasian tools
+| [Digital Forensic](02-digital-forensic) | Analisis forensik dan identifikasi artifak digital
 | [Penetration testing](03-penetration-testing) | Penetration testing & vulnerability assesment (VAPT)
-| [Android Malware analysis](04-android-malware-analysis) | Analisis android malware
-| [Phising, Fraud, And Social Engineering](05-phising-fraud-and-social-engineering) | Pengalaman dalam Phising dan Fraud serta edukasi pencegahan 
+| [Android Malware analysis](04-android-malware-analysis) | Analisis statis dan dinamis pada malware android 
+| [Phising, Fraud, And Social Engineering](05-phising-fraud-and-social-engineering) | Memahami dan mempelajari Human vulnerability serta pengalaman dalam Phising, fraud & scam, serta edukasi pencegahannya
