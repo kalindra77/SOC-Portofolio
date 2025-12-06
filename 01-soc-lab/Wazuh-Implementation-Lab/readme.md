@@ -10,7 +10,7 @@ Selain itu, komunitas wazuh sudah sangat besar dan terus berkembang, faktor utam
 
 | Project | Deskripsi
 |----------|------------|
-| [Setup Custom Rules](01-setup-custom-rules-wazuh) | Membat custom rules wazuh untuk menghindari false-positive
+| [Setup Custom Rules](01-setup-custom-rules-wazuh) | Membuat custom rules pada wazuh
 | [Wazuh & Suricata Integration](02-wazuh-and-suricata-integration) | Mengintegrasikan wazuh dengan suricata sebagai IDS
 | [SSH Brute-Force Detection](03-wazuh-ssh-brute-force-detection) | Mendeteksi percobaan login berulang sebagai Brute-Force attack  
 | [XSS and SQLI Detection](04-wazuh-xss-and-sqli-detection) | Mendeteksi input user pada website yang mengandung payload xss dan sqli
