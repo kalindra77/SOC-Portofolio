@@ -1,5 +1,9 @@
 # Disk Forensic
 
+<p align='center'>
+  <img src='assets/img/disk.png width='400'>
+</p>
+
 Disk forensic merupakan salah satu bidang dalam digital forensik dengan fokus mengidentifikasi, mengumpulkan, menganalisis, dan menjaga bukti digital pada media penyimpanan non-volatil seperti HDD, SSD, Flashdisk, atau SDcard
 
 ## Apa yang dilakukan dalam disk forensic ?
