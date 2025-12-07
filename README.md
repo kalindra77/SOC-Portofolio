@@ -4,7 +4,7 @@
 
 # SOC Analyst Portofolio
 
-Repositori ini memamerkan Mini SOC Home Lab saya, yang mendokumentasikan perjalanan pembelajaran cybersecurity saya melalui Threat simulation, forensik digital, respon insiden, dan penerapan tools yang digunakan dalam SOC.
+Repositori ini Berisi Mini SOC (Home Lab) saya, dokumentasi perjalanan pembelajaran cybersecurity, Threat simulation, forensik digital, respon insiden, dan penerapan tools yang digunakan dalam SOC.
 
 ## 🛠️ Tools Yang Digunakan
 - Wazuh (SIEM), Suricata (IDS), Cowrie (Honeypot)
