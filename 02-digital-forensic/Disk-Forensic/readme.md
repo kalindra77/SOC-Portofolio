@@ -22,6 +22,10 @@ Disk forensic merupakan salah satu bidang dalam digital forensik dengan fokus me
 - Mencari jejak peretas dalam sistem
 - Mengembalikan data penting yang sengaja dihapus
 
-  
+## Project
+
+| Project | Deskripsi
+|----------|------------|
+| [01-Make-Virtual-Disk](01-Make-Virtual-Disk) | Membuat disk virtual (dummy) dengan menggunakan **dd** di linux | 
 
  
