@@ -1,4 +1,4 @@
-# Deploying Cowrie (Honeypot)
+# Deploying Cowrie Honeypot
 
 <p align='center'>
   <img src='assets/img/honeypot.jpg' width='400'>
@@ -29,7 +29,7 @@ sudo docker run -d --name cowrie -p 172.17.0.1:2222:2222 --restart unless-stoppe
 
 penjelasan:
 
--d        : jalankan docker sebagai di background 
+-d        : jalankan docker di background 
 --name    : beri nama container cowrie
 -p        : 172.17.0.1 adalah interface virtual (docker0) yang dibuat oleh docker bisa dicek dengan perintah ip a. 2222:2222 publis port 2222 container ke port 2222 interface docker0
 --restart : unless-stopped jalankan otomatis container setelah docker reboot 
@@ -47,3 +47,4 @@ sudo docker ps
 ssh -p 2222 root@172.17.0.1
 ```
 - jika berhasil login maka container cowrie sudah berjalan dengan benar. Sekarang tinggal konfigurasi iptables agar setiap akses diluar VPN dialihkan ke honeypot 
+eluruh aktivitas yang dilakukan oleh penyerang, seperti percobaan login, perintah yang dijalankan, hingga file yang diunduh, akan direkam untuk keperluan analisis. Dengan demikian, penggunaan honeypot Cowrie dapat menjadi alat yang efektif dalam mempelajari ancaman keamanan jaringan serta meningkatkan strategi pertahanan sistem di masa mendatang.
