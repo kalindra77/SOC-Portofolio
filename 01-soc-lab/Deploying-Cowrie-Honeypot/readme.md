@@ -47,4 +47,14 @@ sudo docker ps
 ssh -p 2222 root@172.17.0.1
 ```
 - jika berhasil login maka container cowrie sudah berjalan dengan benar. Sekarang tinggal konfigurasi iptables agar setiap akses diluar VPN dialihkan ke honeypot 
-eluruh aktivitas yang dilakukan oleh penyerang, seperti percobaan login, perintah yang dijalankan, hingga file yang diunduh, akan direkam untuk keperluan analisis. Dengan demikian, penggunaan honeypot Cowrie dapat menjadi alat yang efektif dalam mempelajari ancaman keamanan jaringan serta meningkatkan strategi pertahanan sistem di masa mendatang.
+eluruh aktivitas yang dilakukan oleh penyerang, seperti percobaan login, perintah yang dijalankan, hingga file yang diunduh, akan direkam untuk keperluan analisis.
+
+## Membuat rule IPtables
+
+- Terakhir buat rule iptables, yang bisa mengakses SSH pada port 22 hanya interface wg0 yaitu VPN wireguard, sementara selain itu maka akan dialihkan ke port 127.17.0.1:2222 yaitu interface docker0 dan cowrie
+
+```bash
+sudo iptables -A INPUT -p tcp ! -i wg0 --dport 22 -j DROP
+sudo iptables -t nat -A PREROUTING -p tcp ! -i wg- --dport 22 -j DNAT --to-destination 172.17.0.1:2222
+```
+- Dengan ini hanya pengguna dengan akses VPN yang dapat login ke SSH asli, sementara sisanya akan dialihkan ke cowrie. PENTING !!! selalu disable login SSH menggunakan password, ini adalah teknik terbaik untuk pencegahan bruteforce attack pada SSH, jika terpaksa maka selalu aktifkn fail2ban dengan batas login 3-5 kali.
