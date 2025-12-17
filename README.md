@@ -4,7 +4,17 @@
 
 # Mini SOC Lab
 
-Repositori ini berisi Home-Lab saya, dokumentasi perjalanan pembelajaran cybersecurity, Threat simulation, forensik digital, respon insiden, dan penerapan tools yang digunakan dalam SOC.
+Repositori ini berisi dokumentasi pembelajaran dan eksperimen **cybersecurity** melalui **home lab**.  
+Tujuannya adalah untuk memahami konsep keamanan secara praktis, mulai dari dasar hingga penerapan tools keamanan di lingkungan simulasi.
+
+Isi repositori meliputi:
+
+- Dokumentasi setup home lab (VM, network, dan konfigurasi)
+- Catatan pengalaman dan pembelajaran cybersecurity
+- Penerapan dan eksplorasi tools keamanan (defensive & offensive)
+- Hasil eksperimen, studi kasus, dan catatan troubleshooting
+
+Repositori ini dibuat sebagai arsip pembelajaran pribadi, portofolio, dan sekaligus referensi bagi siapa pun yang ingin belajar cybersecurity secara praktis.
 
 ## 🛠️ Tools Yang Digunakan
 - Wazuh (SIEM), Suricata (IDS), Cowrie (Honeypot)
