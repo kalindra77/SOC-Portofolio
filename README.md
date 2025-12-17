@@ -2,12 +2,13 @@
   <img src="assets/soc.png" width="400">
 </p>
 
-# SOC Analyst Portofolio
+# Mini SOC Lab
 
-Repositori ini Berisi Mini SOC (Home Lab) saya, dokumentasi perjalanan pembelajaran cybersecurity, Threat simulation, forensik digital, respon insiden, dan penerapan tools yang digunakan dalam SOC.
+Repositori ini berisi Home-Lab saya, dokumentasi perjalanan pembelajaran cybersecurity, Threat simulation, forensik digital, respon insiden, dan penerapan tools yang digunakan dalam SOC.
 
 ## 🛠️ Tools Yang Digunakan
 - Wazuh (SIEM), Suricata (IDS), Cowrie (Honeypot)
+- Velociraptor (DFIR)
 - Mobsf (Mobile security framework)
 - Metasploit Framework & Kali linux
 - The Sleuth Kit, Autopsy, Volatility (Forensic tools)
@@ -16,8 +17,7 @@ Repositori ini Berisi Mini SOC (Home Lab) saya, dokumentasi perjalanan pembelaja
 
 ## 🧑‍💻 Skills
 - Log analysis
-- Digital Forensic
-- Incident detection & response
+- Digital Forensic & Incident response
 - Threat intelligence & hunting
 - Network analysis (TCP/IP, DNS, HTTP, SSH)
 - Basic android malware analysis 
