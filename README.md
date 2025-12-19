@@ -40,4 +40,4 @@ Repositori ini dibuat sebagai arsip pembelajaran pribadi, portofolio, dan sekali
 | [Digital Forensic](02-digital-forensic) | Analisis forensik dan identifikasi artifak digital | Autopsy, The Sleuth Kit, Volatility, Wireshark 
 | [Penetration testing](03-penetration-testing) | Penetration testing & vulnerability assesment (VAPT) | Kali Linux Penetration Tools 
 | [Android Malware analysis](04-android-malware-analysis) | Analisis statis dan dinamis pada malware android | MobSF, Burpsuite 
-| [Phising, Fraud, And Social Engineering](05-phising-fraud-and-social-engineering) | Memahami dan mempelajari Human vulnerability serta pengalaman dalam Phising, fraud/scam, dan juga edukasi pencegahannya | OSINT, Google Dork,
+| [Phising, Fraud, And Social Engineering](05-phising-fraud-and-social-engineering) | Memahami dan mempelajari Human vulnerability serta pengalaman dalam Phising, fraud/scam, dan juga edukasi pencegahannya | OSINT, Google Dork
