@@ -35,7 +35,7 @@ Repositori ini dibuat sebagai arsip pembelajaran pribadi, portofolio, dan sekali
 
 ## 📂 Projects
 | Project | Deskripsi | Tools
-|----------|------------|
+|----------|------------|------------|
 | [SOC-Lab](01-soc-lab) | Home lab SOC, simulasi insiden, dan pengimplementasian tools | Wazuh, Suricata, Velociraptor, Linux 
 | [Digital Forensic](02-digital-forensic) | Analisis forensik dan identifikasi artifak digital | Autopsy, The Sleuth Kit, Volatility, Wireshark 
 | [Penetration testing](03-penetration-testing) | Penetration testing & vulnerability assesment (VAPT) | Kali Linux Penetration Tools 
