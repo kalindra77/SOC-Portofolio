@@ -8,6 +8,8 @@ Wazuh adalah platform keamanan open-source yang dirancang untuk membantu organis
 
 Selain itu, komunitas wazuh sudah sangat besar dan terus berkembang, faktor utamanya adalah karena basis open-source nya yang menjadikan wazuh digemari banyak orang. Fitur yang diberikan pun cukup lengkap seperti Threat intelligence, File Integrity monitoring, Vulneberallity detection hingga endpoint security seperti malware detection dan configuration assesment serta masih banyak lagi. Dengan segala fiturnya wazuh dapat menjadi salah satu pilihan platform yang minim biaya dan dapat diandalkan
 
+## Project
+
 | Project | Deskripsi
 |----------|------------|
 | [Setup Custom Rules](01-setup-custom-rules-wazuh) | Membuat custom rules pada wazuh
