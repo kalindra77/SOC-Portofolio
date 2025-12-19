@@ -34,10 +34,10 @@ Repositori ini dibuat sebagai arsip pembelajaran pribadi, portofolio, dan sekali
 - Education and prevention of phishing and fraud
 
 ## 📂 Projects
-| Project | Deskripsi | Tools |
+| Project | Deskripsi | Tools
 |----------|------------|
-| [SOC-Lab](01-soc-lab) | Home lab SOC, simulasi insiden, dan pengimplementasian tools | Wazuh, Suricata, Velociraptor, Linux |
-| [Digital Forensic](02-digital-forensic) | Analisis forensik dan identifikasi artifak digital | Autopsy, The Sleuth Kit, Volatility, Wireshark |
-| [Penetration testing](03-penetration-testing) | Penetration testing & vulnerability assesment (VAPT) | Kali Linux Penetration Tools |
-| [Android Malware analysis](04-android-malware-analysis) | Analisis statis dan dinamis pada malware android | MobSF, Burpsuite |
-| [Phising, Fraud, And Social Engineering](05-phising-fraud-and-social-engineering) | Memahami dan mempelajari Human vulnerability serta pengalaman dalam Phising, fraud/scam, dan juga edukasi pencegahannya | OSINT, Google Dork, |
+| [SOC-Lab](01-soc-lab) | Home lab SOC, simulasi insiden, dan pengimplementasian tools | Wazuh, Suricata, Velociraptor, Linux 
+| [Digital Forensic](02-digital-forensic) | Analisis forensik dan identifikasi artifak digital | Autopsy, The Sleuth Kit, Volatility, Wireshark 
+| [Penetration testing](03-penetration-testing) | Penetration testing & vulnerability assesment (VAPT) | Kali Linux Penetration Tools 
+| [Android Malware analysis](04-android-malware-analysis) | Analisis statis dan dinamis pada malware android | MobSF, Burpsuite 
+| [Phising, Fraud, And Social Engineering](05-phising-fraud-and-social-engineering) | Memahami dan mempelajari Human vulnerability serta pengalaman dalam Phising, fraud/scam, dan juga edukasi pencegahannya | OSINT, Google Dork,
