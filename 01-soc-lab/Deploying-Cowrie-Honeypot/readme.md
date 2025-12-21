@@ -64,12 +64,12 @@ sudo docker cp cowrie:cowrie/cowrie-git/etc .
 sudo mv etc/cowrie.conf.dist etc/cowrie.cfg
 sudo mv etc/userdb.example etc/userdb.txt
 ```
-- Jika sudah maka ubah konfigurasi utama pada cowrie.cfg dan konfigurasi user yang dapat digunakan untuk login pada file userdb.txt, Disarankan mengubah sesuai dengan lingkungan sistem kita untuk mengecoh dan membuat attacker yakin sudah login pada mesin asli.
+- Jika sudah maka ubah konfigurasi utama pada cowrie.cfg dan konfigurasi user pada file userdb.txt, disarankan mengubah semirip mungkin sesuai dengan lingkungan sistem kita untuk mengecoh dan membuat attacker yakin sudah login pada mesin asli.
 
 - Setelah itu mount konfigurasi custom ini saat menjalankan container cowrie
 
 ```bash
-sudo docker run -d --name cowrie -p 172.17.0.1:2222:2222 --mount type=bind,source=./etc,target=/cowrie/cowrie-git/etc cowrie/cowrie
+sudo docker run -d --name cowrie -p 172.17.0.1:2222:2222 --mount type=bind,source=./etc,target=/cowrie/cowrie-git/etc --restart unless-stopped cowrie/cowrie
 ```
 - Cek dengan login menggunakan konfigurasi yang sudah dibuat, jika dapat login maka konfigurasi sudah berhasil diterapkan
 
