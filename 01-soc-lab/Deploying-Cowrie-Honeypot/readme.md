@@ -31,7 +31,7 @@ penjelasan:
 
 -d        : jalankan docker di background 
 --name    : beri nama container cowrie
--p        : 172.17.0.1 adalah interface virtual (docker0) yang dibuat oleh docker bisa dicek dengan perintah ip a. 2222:2222 publis port 2222 container ke port 2222 interface docker0
+-p        : 172.17.0.1 adalah interface virtual (docker0) yang dibuat oleh docker bisa dicek dengan perintah ip a. 2222:2222 untuk publish port 2222 container ke port 2222 interface docker0
 --restart : unless-stopped jalankan otomatis container setelah docker reboot 
 ```
 - Untuk memastikan container sudah jalan dengan benar cek dengan perintah
@@ -48,6 +48,30 @@ ssh -p 2222 root@172.17.0.1
 ```
 - jika berhasil login maka container cowrie sudah berjalan dengan benar. Sekarang tinggal konfigurasi iptables agar setiap akses diluar VPN dialihkan ke honeypot 
 eluruh aktivitas yang dilakukan oleh penyerang, seperti percobaan login, perintah yang dijalankan, hingga file yang diunduh, akan direkam untuk keperluan analisis.
+
+## Konfigurasi custom
+
+- Secara default hostname pada cowrie adalah srv04 dengan user root atau phil dan password yang dapat diisi kosong, jika belum dikonfigurasi maka ini akan sangat mencurigakan dan mudah sekali dikenali sebagai honeypot, untuk itu maka diperlukan konfigurasi tambahan yang menyesuaikan dengan environment server.
+
+- Pertama kita harus mengcopy konfigurasi dari dalam container ke folder lokal.
+
+```bash
+sudo docker cp cowrie:cowrie/cowrie-git/etc .   
+```
+- Lalu ubah nama folder cowrie.cfg.dist dan userdb.example menjadi cowrie.cfg dan userdb.txt
+
+```bash
+sudo mv etc/cowrie.conf.dist etc/cowrie.cfg
+sudo mv etc/userdb.example etc/userdb.txt
+```
+- Jika sudah maka ubah konfigurasi utama pada cowrie.cfg dan konfigurasi user yang dapat digunakan untuk login pada file userdb.txt, Disarankan mengubah sesuai dengan lingkungan sistem kita untuk mengecoh dan membuat attacker yakin sudah login pada mesin asli.
+
+- Setelah itu mount konfigurasi custom ini saat menjalankan container cowrie
+
+```bash
+sudo docker run -d --name cowrie -p 172.17.0.1:2222:2222 --mount type=bind,source=./etc,target=/cowrie/cowrie-git/etc cowrie/cowrie
+```
+- Cek dengan login menggunakan konfigurasi yang sudah dibuat, jika dapat login maka konfigurasi sudah berhasil diterapkan
 
 ## Membuat rule IPtables
 
